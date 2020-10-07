@@ -1,0 +1,3 @@
+Item.MouseButton1Down:connect(function()
+script
+end)
