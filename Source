@@ -1,0 +1,1294 @@
+print("Made by InvalidSoul#8673")
+print("None of these scripts are mine.")
+print("Enjoy!")
+
+local DashHub20 = Instance.new("ScreenGui")
+local FrontGUI = Instance.new("Frame")
+local Hub = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local Dash = Instance.new("TextLabel")
+local GamesTitle = Instance.new("TextLabel")
+local ChangelogTitle = Instance.new("TextLabel")
+local CreditsTitle = Instance.new("TextLabel")
+local Main = Instance.new("TextLabel")
+local Buttons = Instance.new("Frame")
+local Line = Instance.new("Frame")
+local ButtonTitle = Instance.new("TextLabel")
+local ScriptsButton = Instance.new("TextButton")
+local GamesButton = Instance.new("TextButton")
+local ChangelogButton = Instance.new("TextButton")
+local CreditsButton = Instance.new("TextButton")
+local SettingsButton = Instance.new("TextButton")
+local DiscordButton = Instance.new("TextButton")
+local HideGUI = Instance.new("TextButton")
+local Thanks = Instance.new("TextLabel")
+local Disc = Instance.new("TextLabel")
+local Line_2 = Instance.new("Frame")
+local Discord = Instance.new("Frame")
+local Dash_2 = Instance.new("TextLabel")
+local Hub_2 = Instance.new("TextLabel")
+local Version_2 = Instance.new("TextLabel")
+local Line_3 = Instance.new("Frame")
+local DiscordTitle = Instance.new("TextLabel")
+local Discord_2 = Instance.new("TextLabel")
+local CopyDiscord = Instance.new("TextButton")
+local Settings = Instance.new("Frame")
+local Dash_3 = Instance.new("TextLabel")
+local Hub_3 = Instance.new("TextLabel")
+local Version_3 = Instance.new("TextLabel")
+local Line_4 = Instance.new("Frame")
+local SettingsTitle = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local Credits = Instance.new("Frame")
+local Dash_4 = Instance.new("TextLabel")
+local Hub_4 = Instance.new("TextLabel")
+local Version_4 = Instance.new("TextLabel")
+local Line_5 = Instance.new("Frame")
+local CreditsTitle_2 = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Changelog = Instance.new("Frame")
+local Dash_5 = Instance.new("TextLabel")
+local Hub_5 = Instance.new("TextLabel")
+local Version_5 = Instance.new("TextLabel")
+local Line_6 = Instance.new("Frame")
+local ChangelogTitle_2 = Instance.new("TextLabel")
+local C1 = Instance.new("TextLabel")
+local Scripts = Instance.new("ScrollingFrame")
+local Dash_6 = Instance.new("TextLabel")
+local Hub_6 = Instance.new("TextLabel")
+local Version_6 = Instance.new("TextLabel")
+local Line_7 = Instance.new("Frame")
+local ScriptsTitle = Instance.new("TextLabel")
+local CmdX = Instance.new("TextButton")
+local Animations = Instance.new("TextButton")
+local ESP = Instance.new("TextButton")
+local ClickTP = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local InfYield = Instance.new("TextButton")
+local Fling = Instance.new("TextButton")
+local BTools = Instance.new("TextButton")
+local Games = Instance.new("ScrollingFrame")
+local Dash_7 = Instance.new("TextLabel")
+local Hub_7 = Instance.new("TextLabel")
+local Version_7 = Instance.new("TextLabel")
+local Line_8 = Instance.new("Frame")
+local GamesTitle_2 = Instance.new("TextLabel")
+local GiantSurvival = Instance.new("TextButton")
+local NaturalDisaster = Instance.new("TextButton")
+local BigPaintball = Instance.new("TextButton")
+local RagdollEngine = Instance.new("TextButton")
+local BuildABoat = Instance.new("TextButton")
+local Piggy = Instance.new("TextButton")
+local LuckyBlock = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local CounterBlox = Instance.new("TextButton")
+local TowerOfHell = Instance.new("TextButton")
+local PushSim = Instance.new("TextButton")
+local OpenAndClose = Instance.new("Frame")
+local OpenHub = Instance.new("TextButton")
+
+DashHub20.Name = "DashHub 2.0"
+DashHub20.Parent = game.CoreGui
+DashHub20.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+FrontGUI.Name = "FrontGUI"
+FrontGUI.Parent = DashHub20
+FrontGUI.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+FrontGUI.BorderColor3 = Color3.fromRGB(181, 64, 255)
+FrontGUI.BorderSizePixel = 3
+FrontGUI.Position = UDim2.new(0.100171722, 0, 0.382758617, 0)
+FrontGUI.Size = UDim2.new(0, 627, 0, 420)
+FrontGUI.Active = true
+FrontGUI.Draggable = true
+
+Hub.Name = "Hub"
+Hub.Parent = FrontGUI
+Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub.BackgroundTransparency = 1.000
+Hub.Position = UDim2.new(0.122807018, 0, 0.0190476216, 0)
+Hub.Size = UDim2.new(0, 88, 0, 19)
+Hub.Font = Enum.Font.GothamSemibold
+Hub.Text = "Hub"
+Hub.TextColor3 = Color3.fromRGB(128, 0, 255)
+Hub.TextSize = 35.000
+
+Version.Name = "Version"
+Version.Parent = FrontGUI
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.82934612, 0, 0.0190476216, 0)
+Version.Size = UDim2.new(0, 98, 0, 19)
+Version.Font = Enum.Font.GothamSemibold
+Version.Text = "Version 2.1"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 20.000
+
+Dash.Name = "Dash"
+Dash.Parent = FrontGUI
+Dash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dash.BackgroundTransparency = 1.000
+Dash.Position = UDim2.new(0, 0, 0.0190476216, 0)
+Dash.Size = UDim2.new(0, 97, 0, 19)
+Dash.Font = Enum.Font.GothamSemibold
+Dash.Text = "Dash"
+Dash.TextColor3 = Color3.fromRGB(253, 128, 8)
+Dash.TextSize = 35.000
+
+GamesTitle.Name = "GamesTitle"
+GamesTitle.Parent = FrontGUI
+GamesTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle.BackgroundTransparency = 1.000
+GamesTitle.Position = UDim2.new(0.339712918, 0, 0, 0)
+GamesTitle.Size = UDim2.new(0, 200, 0, 37)
+GamesTitle.Visible = false
+GamesTitle.Font = Enum.Font.GothamSemibold
+GamesTitle.Text = "Games"
+GamesTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle.TextSize = 35.000
+
+ChangelogTitle.Name = "ChangelogTitle"
+ChangelogTitle.Parent = FrontGUI
+ChangelogTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChangelogTitle.BackgroundTransparency = 1.000
+ChangelogTitle.Position = UDim2.new(0.339712918, 0, 0, 0)
+ChangelogTitle.Size = UDim2.new(0, 200, 0, 37)
+ChangelogTitle.Visible = false
+ChangelogTitle.Font = Enum.Font.GothamSemibold
+ChangelogTitle.Text = "Changelog"
+ChangelogTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChangelogTitle.TextSize = 35.000
+
+CreditsTitle.Name = "CreditsTitle"
+CreditsTitle.Parent = FrontGUI
+CreditsTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsTitle.BackgroundTransparency = 1.000
+CreditsTitle.Position = UDim2.new(0.339712918, 0, 0, 0)
+CreditsTitle.Size = UDim2.new(0, 200, 0, 37)
+CreditsTitle.Visible = false
+CreditsTitle.Font = Enum.Font.GothamSemibold
+CreditsTitle.Text = "Credits"
+CreditsTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsTitle.TextSize = 35.000
+
+Main.Name = "Main"
+Main.Parent = FrontGUI
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0.336523116, 0, -0.00238095224, 0)
+Main.Size = UDim2.new(0, 200, 0, 37)
+Main.Font = Enum.Font.GothamSemibold
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main.TextSize = 35.000
+
+Buttons.Name = "Buttons"
+Buttons.Parent = FrontGUI
+Buttons.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Buttons.BorderColor3 = Color3.fromRGB(181, 64, 255)
+Buttons.BorderSizePixel = 3
+Buttons.Position = UDim2.new(-0.140643939, 0, 0, 0)
+Buttons.Size = UDim2.new(0, 80, 0, 420)
+
+Line.Name = "Line"
+Line.Parent = Buttons
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line.Position = UDim2.new(0.117759228, 0, 0.0880952403, 0)
+Line.Size = UDim2.new(0, 60, 0, 1)
+
+ButtonTitle.Name = "ButtonTitle"
+ButtonTitle.Parent = Buttons
+ButtonTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonTitle.BackgroundTransparency = 1.000
+ButtonTitle.Position = UDim2.new(0.117759198, 0, 0.0119047621, 0)
+ButtonTitle.Size = UDim2.new(0, 61, 0, 26)
+ButtonTitle.Font = Enum.Font.GothamSemibold
+ButtonTitle.Text = "Buttons"
+ButtonTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonTitle.TextScaled = true
+ButtonTitle.TextSize = 35.000
+ButtonTitle.TextWrapped = true
+
+ScriptsButton.Name = "ScriptsButton"
+ScriptsButton.Parent = Buttons
+ScriptsButton.BackgroundColor3 = Color3.fromRGB(87, 88, 88)
+ScriptsButton.BackgroundTransparency = 0.500
+ScriptsButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScriptsButton.BorderSizePixel = 0
+ScriptsButton.Position = UDim2.new(0, 0, 0.13333334, 0)
+ScriptsButton.Size = UDim2.new(0, 80, 0, 45)
+ScriptsButton.Font = Enum.Font.GothamSemibold
+ScriptsButton.Text = "Scripts"
+ScriptsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsButton.TextSize = 20.000
+ScriptsButton.TextWrapped = true
+
+GamesButton.Name = "GamesButton"
+GamesButton.Parent = Buttons
+GamesButton.BackgroundColor3 = Color3.fromRGB(87, 88, 88)
+GamesButton.BackgroundTransparency = 0.500
+GamesButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GamesButton.BorderSizePixel = 0
+GamesButton.Position = UDim2.new(0, 0, 0.264285713, 0)
+GamesButton.Size = UDim2.new(0, 80, 0, 45)
+GamesButton.Font = Enum.Font.GothamSemibold
+GamesButton.Text = "Games"
+GamesButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GamesButton.TextSize = 20.000
+GamesButton.TextWrapped = true
+
+ChangelogButton.Name = "ChangelogButton"
+ChangelogButton.Parent = Buttons
+ChangelogButton.BackgroundColor3 = Color3.fromRGB(87, 88, 88)
+ChangelogButton.BackgroundTransparency = 0.500
+ChangelogButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ChangelogButton.BorderSizePixel = 0
+ChangelogButton.Position = UDim2.new(0, 0, 0.392857224, 0)
+ChangelogButton.Size = UDim2.new(0, 80, 0, 45)
+ChangelogButton.Font = Enum.Font.GothamSemibold
+ChangelogButton.Text = "Changes"
+ChangelogButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChangelogButton.TextSize = 20.000
+ChangelogButton.TextWrapped = true
+
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = Buttons
+CreditsButton.BackgroundColor3 = Color3.fromRGB(87, 88, 88)
+CreditsButton.BackgroundTransparency = 0.500
+CreditsButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CreditsButton.BorderSizePixel = 0
+CreditsButton.Position = UDim2.new(0, 0, 0.521428645, 0)
+CreditsButton.Size = UDim2.new(0, 80, 0, 45)
+CreditsButton.Font = Enum.Font.GothamSemibold
+CreditsButton.Text = "Credits"
+CreditsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsButton.TextSize = 20.000
+CreditsButton.TextWrapped = true
+
+SettingsButton.Name = "SettingsButton"
+SettingsButton.Parent = Buttons
+SettingsButton.BackgroundColor3 = Color3.fromRGB(87, 88, 88)
+SettingsButton.BackgroundTransparency = 0.500
+SettingsButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+SettingsButton.BorderSizePixel = 0
+SettingsButton.Position = UDim2.new(0, 0, 0.652381003, 0)
+SettingsButton.Size = UDim2.new(0, 80, 0, 45)
+SettingsButton.Font = Enum.Font.GothamSemibold
+SettingsButton.Text = "Settings"
+SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsButton.TextSize = 20.000
+SettingsButton.TextWrapped = true
+
+DiscordButton.Name = "DiscordButton"
+DiscordButton.Parent = Buttons
+DiscordButton.BackgroundColor3 = Color3.fromRGB(87, 88, 88)
+DiscordButton.BackgroundTransparency = 0.500
+DiscordButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+DiscordButton.BorderSizePixel = 0
+DiscordButton.Position = UDim2.new(0, 0, 0.783333421, 0)
+DiscordButton.Size = UDim2.new(0, 80, 0, 45)
+DiscordButton.Font = Enum.Font.GothamSemibold
+DiscordButton.Text = "Discord"
+DiscordButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DiscordButton.TextSize = 20.000
+DiscordButton.TextWrapped = true
+
+HideGUI.Name = "HideGUI"
+HideGUI.Parent = Buttons
+HideGUI.BackgroundColor3 = Color3.fromRGB(87, 88, 88)
+HideGUI.BackgroundTransparency = 0.500
+HideGUI.BorderSizePixel = 0
+HideGUI.Position = UDim2.new(0, 0, 0.918854535, 0)
+HideGUI.Size = UDim2.new(0, 80, 0, 33)
+HideGUI.Font = Enum.Font.GothamSemibold
+HideGUI.Text = "HideGUI"
+HideGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideGUI.TextSize = 18.000
+HideGUI.TextWrapped = true
+
+Thanks.Name = "Thanks"
+Thanks.Parent = FrontGUI
+Thanks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Thanks.BackgroundTransparency = 1.000
+Thanks.Position = UDim2.new(0.0366826169, 0, 0.13333334, 0)
+Thanks.Size = UDim2.new(0, 577, 0, 245)
+Thanks.Font = Enum.Font.GothamSemibold
+Thanks.Text = "Thank you for using DashHub 2.0, join the discord located on the bottom of the main screen to get more updates and releases, Enjoy!"
+Thanks.TextColor3 = Color3.fromRGB(255, 255, 255)
+Thanks.TextScaled = true
+Thanks.TextSize = 14.000
+Thanks.TextWrapped = true
+
+Disc.Name = "Disc"
+Disc.Parent = FrontGUI
+Disc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Disc.BackgroundTransparency = 1.000
+Disc.Position = UDim2.new(0.239234447, 0, 0.840476215, 0)
+Disc.Size = UDim2.new(0, 291, 0, 67)
+Disc.Font = Enum.Font.GothamSemibold
+Disc.Text = "https://discord.gg/Dd5Aze9"
+Disc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disc.TextScaled = true
+Disc.TextSize = 35.000
+Disc.TextWrapped = true
+
+Line_2.Name = "Line"
+Line_2.Parent = FrontGUI
+Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.Position = UDim2.new(0.0127591705, 0, 0.0857142881, 0)
+Line_2.Size = UDim2.new(0, 610, 0, 1)
+
+Discord.Name = "Discord"
+Discord.Parent = FrontGUI
+Discord.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Discord.BorderColor3 = Color3.fromRGB(181, 64, 255)
+Discord.BorderSizePixel = 3
+Discord.Size = UDim2.new(0, 627, 0, 420)
+Discord.Visible = false
+
+Dash_2.Name = "Dash"
+Dash_2.Parent = Discord
+Dash_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dash_2.BackgroundTransparency = 1.000
+Dash_2.Position = UDim2.new(0, 0, 0.0166666675, 0)
+Dash_2.Size = UDim2.new(0, 97, 0, 19)
+Dash_2.Font = Enum.Font.GothamSemibold
+Dash_2.Text = "Dash"
+Dash_2.TextColor3 = Color3.fromRGB(253, 128, 8)
+Dash_2.TextSize = 35.000
+
+Hub_2.Name = "Hub"
+Hub_2.Parent = Discord
+Hub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub_2.BackgroundTransparency = 1.000
+Hub_2.Position = UDim2.new(0.125996813, 0, 0.0166666675, 0)
+Hub_2.Size = UDim2.new(0, 88, 0, 19)
+Hub_2.Font = Enum.Font.GothamSemibold
+Hub_2.Text = "Hub"
+Hub_2.TextColor3 = Color3.fromRGB(128, 0, 255)
+Hub_2.TextSize = 35.000
+
+Version_2.Name = "Version"
+Version_2.Parent = Discord
+Version_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.BackgroundTransparency = 1.000
+Version_2.Position = UDim2.new(0.82934612, 0, 0.0166666675, 0)
+Version_2.Size = UDim2.new(0, 98, 0, 19)
+Version_2.Font = Enum.Font.GothamSemibold
+Version_2.Text = "Version 2.1"
+Version_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.TextSize = 20.000
+
+Line_3.Name = "Line"
+Line_3.Parent = Discord
+Line_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_3.Position = UDim2.new(0.0127591705, 0, 0.0880952403, 0)
+Line_3.Size = UDim2.new(0, 610, 0, 1)
+
+DiscordTitle.Name = "DiscordTitle"
+DiscordTitle.Parent = Discord
+DiscordTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DiscordTitle.BackgroundTransparency = 1.000
+DiscordTitle.Position = UDim2.new(0.339712918, 0, 0, 0)
+DiscordTitle.Size = UDim2.new(0, 200, 0, 37)
+DiscordTitle.Font = Enum.Font.GothamSemibold
+DiscordTitle.Text = "Discord"
+DiscordTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+DiscordTitle.TextSize = 35.000
+
+Discord_2.Name = "Discord"
+Discord_2.Parent = Discord
+Discord_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord_2.BackgroundTransparency = 1.000
+Discord_2.Position = UDim2.new(0.170653909, 0, 0.239044264, 0)
+Discord_2.Size = UDim2.new(0, 408, 0, 137)
+Discord_2.Font = Enum.Font.GothamSemibold
+Discord_2.Text = "https://discord.gg/Dd5Aze9"
+Discord_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord_2.TextScaled = true
+Discord_2.TextSize = 35.000
+Discord_2.TextWrapped = true
+
+CopyDiscord.Name = "CopyDiscord"
+CopyDiscord.Parent = Discord
+CopyDiscord.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+CopyDiscord.BorderColor3 = Color3.fromRGB(167, 169, 169)
+CopyDiscord.BorderSizePixel = 3
+CopyDiscord.Position = UDim2.new(0.336523116, 0, 0.52228862, 0)
+CopyDiscord.Size = UDim2.new(0, 200, 0, 50)
+CopyDiscord.Font = Enum.Font.GothamSemibold
+CopyDiscord.Text = "Copy Discord"
+CopyDiscord.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyDiscord.TextSize = 25.000
+
+Settings.Name = "Settings"
+Settings.Parent = FrontGUI
+Settings.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Settings.BorderColor3 = Color3.fromRGB(181, 64, 255)
+Settings.BorderSizePixel = 3
+Settings.Size = UDim2.new(0, 627, 0, 419)
+Settings.Visible = false
+
+Dash_3.Name = "Dash"
+Dash_3.Parent = Settings
+Dash_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dash_3.BackgroundTransparency = 1.000
+Dash_3.Position = UDim2.new(0, 0, 0.0166666675, 0)
+Dash_3.Size = UDim2.new(0, 97, 0, 19)
+Dash_3.Font = Enum.Font.GothamSemibold
+Dash_3.Text = "Dash"
+Dash_3.TextColor3 = Color3.fromRGB(253, 128, 8)
+Dash_3.TextSize = 35.000
+
+Hub_3.Name = "Hub"
+Hub_3.Parent = Settings
+Hub_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub_3.BackgroundTransparency = 1.000
+Hub_3.Position = UDim2.new(0.125996813, 0, 0.0166666675, 0)
+Hub_3.Size = UDim2.new(0, 88, 0, 19)
+Hub_3.Font = Enum.Font.GothamSemibold
+Hub_3.Text = "Hub"
+Hub_3.TextColor3 = Color3.fromRGB(128, 0, 255)
+Hub_3.TextSize = 35.000
+
+Version_3.Name = "Version"
+Version_3.Parent = Settings
+Version_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_3.BackgroundTransparency = 1.000
+Version_3.Position = UDim2.new(0.82934612, 0, 0.0166666675, 0)
+Version_3.Size = UDim2.new(0, 98, 0, 19)
+Version_3.Font = Enum.Font.GothamSemibold
+Version_3.Text = "Version 2.1"
+Version_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_3.TextSize = 20.000
+
+Line_4.Name = "Line"
+Line_4.Parent = Settings
+Line_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_4.Position = UDim2.new(0.0127591705, 0, 0.0880952403, 0)
+Line_4.Size = UDim2.new(0, 610, 0, 1)
+
+SettingsTitle.Name = "SettingsTitle"
+SettingsTitle.Parent = Settings
+SettingsTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsTitle.BackgroundTransparency = 1.000
+SettingsTitle.Position = UDim2.new(0.339712918, 0, 0, 0)
+SettingsTitle.Size = UDim2.new(0, 200, 0, 37)
+SettingsTitle.Font = Enum.Font.GothamSemibold
+SettingsTitle.Text = "Settings"
+SettingsTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsTitle.TextSize = 35.000
+
+TextLabel.Parent = Settings
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.154704943, 0, 0.143198088, 0)
+TextLabel.Size = UDim2.new(0, 420, 0, 50)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Coming Soon"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 45.000
+
+Credits.Name = "Credits"
+Credits.Parent = FrontGUI
+Credits.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Credits.BorderColor3 = Color3.fromRGB(181, 64, 255)
+Credits.BorderSizePixel = 3
+Credits.Size = UDim2.new(0, 627, 0, 420)
+Credits.Visible = false
+
+Dash_4.Name = "Dash"
+Dash_4.Parent = Credits
+Dash_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dash_4.BackgroundTransparency = 1.000
+Dash_4.Position = UDim2.new(0, 0, 0.0166666675, 0)
+Dash_4.Size = UDim2.new(0, 97, 0, 19)
+Dash_4.Font = Enum.Font.GothamSemibold
+Dash_4.Text = "Dash"
+Dash_4.TextColor3 = Color3.fromRGB(253, 128, 8)
+Dash_4.TextSize = 35.000
+
+Hub_4.Name = "Hub"
+Hub_4.Parent = Credits
+Hub_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub_4.BackgroundTransparency = 1.000
+Hub_4.Position = UDim2.new(0.125996813, 0, 0.0166666675, 0)
+Hub_4.Size = UDim2.new(0, 88, 0, 19)
+Hub_4.Font = Enum.Font.GothamSemibold
+Hub_4.Text = "Hub"
+Hub_4.TextColor3 = Color3.fromRGB(128, 0, 255)
+Hub_4.TextSize = 35.000
+
+Version_4.Name = "Version"
+Version_4.Parent = Credits
+Version_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_4.BackgroundTransparency = 1.000
+Version_4.Position = UDim2.new(0.82934612, 0, 0.0166666675, 0)
+Version_4.Size = UDim2.new(0, 98, 0, 19)
+Version_4.Font = Enum.Font.GothamSemibold
+Version_4.Text = "Version 2.1"
+Version_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_4.TextSize = 20.000
+
+Line_5.Name = "Line"
+Line_5.Parent = Credits
+Line_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_5.Position = UDim2.new(0.0127591705, 0, 0.0880952403, 0)
+Line_5.Size = UDim2.new(0, 610, 0, 1)
+
+CreditsTitle_2.Name = "CreditsTitle"
+CreditsTitle_2.Parent = Credits
+CreditsTitle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsTitle_2.BackgroundTransparency = 1.000
+CreditsTitle_2.Position = UDim2.new(0.339712918, 0, 0, 0)
+CreditsTitle_2.Size = UDim2.new(0, 200, 0, 37)
+CreditsTitle_2.Font = Enum.Font.GothamSemibold
+CreditsTitle_2.Text = "Credits"
+CreditsTitle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsTitle_2.TextSize = 35.000
+
+TextLabel_2.Parent = Credits
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.125996813, 0, 0.133971289, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "GUI Maker - InvalidSoul#8673"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 25.000
+
+TextLabel_3.Parent = Credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0542264841, 0, 0.272863984, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Tester - Snoozy#1796"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 25.000
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.204146728, 0, 0.363818645, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "Partners - patrick.#2020. SkeletonHDSky#4080"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+
+Changelog.Name = "Changelog"
+Changelog.Parent = FrontGUI
+Changelog.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Changelog.BorderColor3 = Color3.fromRGB(181, 64, 255)
+Changelog.BorderSizePixel = 3
+Changelog.Size = UDim2.new(0, 627, 0, 419)
+Changelog.Visible = false
+
+Dash_5.Name = "Dash"
+Dash_5.Parent = Changelog
+Dash_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dash_5.BackgroundTransparency = 1.000
+Dash_5.Position = UDim2.new(0, 0, 0.03337311, 0)
+Dash_5.Size = UDim2.new(0, 97, 0, 19)
+Dash_5.Font = Enum.Font.GothamSemibold
+Dash_5.Text = "Dash"
+Dash_5.TextColor3 = Color3.fromRGB(253, 128, 8)
+Dash_5.TextSize = 35.000
+
+Hub_5.Name = "Hub"
+Hub_5.Parent = Changelog
+Hub_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub_5.BackgroundTransparency = 1.000
+Hub_5.Position = UDim2.new(0.125996813, 0, 0.03337311, 0)
+Hub_5.Size = UDim2.new(0, 88, 0, 19)
+Hub_5.Font = Enum.Font.GothamSemibold
+Hub_5.Text = "Hub"
+Hub_5.TextColor3 = Color3.fromRGB(128, 0, 255)
+Hub_5.TextSize = 35.000
+
+Version_5.Name = "Version"
+Version_5.Parent = Changelog
+Version_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_5.BackgroundTransparency = 1.000
+Version_5.Position = UDim2.new(0.82934612, 0, 0.03337311, 0)
+Version_5.Size = UDim2.new(0, 98, 0, 19)
+Version_5.Font = Enum.Font.GothamSemibold
+Version_5.Text = "Version 2.1"
+Version_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_5.TextSize = 20.000
+
+Line_6.Name = "Line"
+Line_6.Parent = Changelog
+Line_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_6.Position = UDim2.new(0.0127591705, 0, 0.104801685, 0)
+Line_6.Size = UDim2.new(0, 610, 0, 1)
+
+ChangelogTitle_2.Name = "ChangelogTitle"
+ChangelogTitle_2.Parent = Changelog
+ChangelogTitle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChangelogTitle_2.BackgroundTransparency = 1.000
+ChangelogTitle_2.Position = UDim2.new(0.339712918, 0, 0.00954653975, 0)
+ChangelogTitle_2.Size = UDim2.new(0, 200, 0, 37)
+ChangelogTitle_2.Font = Enum.Font.GothamSemibold
+ChangelogTitle_2.Text = "Changelog"
+ChangelogTitle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChangelogTitle_2.TextSize = 35.000
+
+C1.Name = "C1"
+C1.Parent = Changelog
+C1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+C1.BackgroundTransparency = 1.000
+C1.Position = UDim2.new(0.0366826206, 0, 0.147619054, 0)
+C1.Size = UDim2.new(0, 511, 0, 50)
+C1.Font = Enum.Font.GothamSemibold
+C1.Text = "-- UI changes, nothing big."
+C1.TextColor3 = Color3.fromRGB(255, 255, 255)
+C1.TextScaled = true
+C1.TextSize = 20.000
+C1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+C1.TextWrapped = true
+
+Scripts.Name = "Scripts"
+Scripts.Parent = FrontGUI
+Scripts.Active = true
+Scripts.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Scripts.BorderColor3 = Color3.fromRGB(181, 64, 255)
+Scripts.BorderSizePixel = 3
+Scripts.Position = UDim2.new(0, 0, -0.00238095247, 0)
+Scripts.Selectable = false
+Scripts.Size = UDim2.new(0, 627, 0, 421)
+Scripts.Visible = false
+Scripts.CanvasPosition = Vector2.new(0, 150)
+
+Dash_6.Name = "Dash"
+Dash_6.Parent = Scripts
+Dash_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dash_6.BackgroundTransparency = 1.000
+Dash_6.Position = UDim2.new(0, 0, 0.0166666675, 0)
+Dash_6.Size = UDim2.new(0, 97, 0, 19)
+Dash_6.Font = Enum.Font.GothamSemibold
+Dash_6.Text = "Dash"
+Dash_6.TextColor3 = Color3.fromRGB(253, 128, 8)
+Dash_6.TextSize = 35.000
+
+Hub_6.Name = "Hub"
+Hub_6.Parent = Scripts
+Hub_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub_6.BackgroundTransparency = 1.000
+Hub_6.Position = UDim2.new(0.125996813, 0, 0.0166666675, 0)
+Hub_6.Size = UDim2.new(0, 88, 0, 19)
+Hub_6.Font = Enum.Font.GothamSemibold
+Hub_6.Text = "Hub"
+Hub_6.TextColor3 = Color3.fromRGB(128, 0, 255)
+Hub_6.TextSize = 35.000
+
+Version_6.Name = "Version"
+Version_6.Parent = Scripts
+Version_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_6.BackgroundTransparency = 1.000
+Version_6.Position = UDim2.new(0.80063796, 0, 0.0166666675, 0)
+Version_6.Size = UDim2.new(0, 98, 0, 19)
+Version_6.Font = Enum.Font.GothamSemibold
+Version_6.Text = "Version 2.1"
+Version_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_6.TextSize = 20.000
+
+Line_7.Name = "Line"
+Line_7.Parent = Scripts
+Line_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_7.Position = UDim2.new(0.0127591705, 0, 0.052380953, 0)
+Line_7.Size = UDim2.new(0, 592, 0, 1)
+
+ScriptsTitle.Name = "ScriptsTitle"
+ScriptsTitle.Parent = Scripts
+ScriptsTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsTitle.BackgroundTransparency = 1.000
+ScriptsTitle.Position = UDim2.new(0.336523116, 0, 0.00595238106, 0)
+ScriptsTitle.Size = UDim2.new(0, 200, 0, 37)
+ScriptsTitle.Font = Enum.Font.GothamSemibold
+ScriptsTitle.Text = "Scripts"
+ScriptsTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsTitle.TextSize = 35.000
+
+CmdX.Name = "CmdX"
+CmdX.Parent = Scripts
+CmdX.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+CmdX.BorderColor3 = Color3.fromRGB(167, 169, 169)
+CmdX.BorderSizePixel = 3
+CmdX.Position = UDim2.new(0.543859661, 0, 0.407142878, 0)
+CmdX.Size = UDim2.new(0, 200, 0, 50)
+CmdX.Font = Enum.Font.GothamSemibold
+CmdX.Text = "Cmd-X"
+CmdX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CmdX.TextSize = 23.000
+CmdX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+Animations.Name = "Animations"
+Animations.Parent = Scripts
+Animations.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+Animations.BorderColor3 = Color3.fromRGB(167, 169, 169)
+Animations.BorderSizePixel = 3
+Animations.Position = UDim2.new(0.0925039724, 0, 0.195238099, 0)
+Animations.Size = UDim2.new(0, 200, 0, 50)
+Animations.Font = Enum.Font.GothamSemibold
+Animations.Text = "Animations"
+Animations.TextColor3 = Color3.fromRGB(255, 255, 255)
+Animations.TextSize = 25.000
+Animations.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/animations", true))()
+end)
+ESP.Name = "ESP"
+ESP.Parent = Scripts
+ESP.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+ESP.BorderColor3 = Color3.fromRGB(167, 169, 169)
+ESP.BorderSizePixel = 3
+ESP.Position = UDim2.new(0.0925039724, 0, 0.298809528, 0)
+ESP.Size = UDim2.new(0, 200, 0, 50)
+ESP.Font = Enum.Font.GothamSemibold
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP.TextSize = 25.000
+ESP.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/ESPScript", true))()
+end)
+ClickTP.Name = "ClickTP"
+ClickTP.Parent = Scripts
+ClickTP.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+ClickTP.BorderColor3 = Color3.fromRGB(167, 169, 169)
+ClickTP.BorderSizePixel = 3
+ClickTP.Position = UDim2.new(0.0925039724, 0, 0.510714293, 0)
+ClickTP.Size = UDim2.new(0, 200, 0, 50)
+ClickTP.Font = Enum.Font.GothamSemibold
+ClickTP.Text = "Click TP(T)"
+ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickTP.TextSize = 25.000
+ClickTP.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/ClickTP", true))()
+end)
+Fly.Name = "Fly"
+Fly.Parent = Scripts
+Fly.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+Fly.BorderColor3 = Color3.fromRGB(167, 169, 169)
+Fly.BorderSizePixel = 3
+Fly.Position = UDim2.new(0.0925039724, 0, 0.0916666687, 0)
+Fly.Size = UDim2.new(0, 200, 0, 50)
+Fly.Font = Enum.Font.GothamSemibold
+Fly.Text = "Fly(E)(R6)"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextSize = 25.000
+Fly.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/Fly", true))()
+end)
+Dex.Name = "Dex"
+Dex.Parent = Scripts
+Dex.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+Dex.BorderColor3 = Color3.fromRGB(167, 169, 169)
+Dex.BorderSizePixel = 3
+Dex.Position = UDim2.new(0.0925039724, 0, 0.407142878, 0)
+Dex.Size = UDim2.new(0, 200, 0, 50)
+Dex.Font = Enum.Font.GothamSemibold
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextSize = 25.000
+Dex.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+end)
+Noclip.Name = "Noclip"
+Noclip.Parent = Scripts
+Noclip.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+Noclip.BorderColor3 = Color3.fromRGB(167, 169, 169)
+Noclip.BorderSizePixel = 3
+Noclip.Position = UDim2.new(0.543859601, 0, 0.0916666687, 0)
+Noclip.Size = UDim2.new(0, 200, 0, 50)
+Noclip.Font = Enum.Font.GothamSemibold
+Noclip.Text = "Noclip(R)"
+Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.TextSize = 25.000
+Noclip.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/NoClip", true))()
+end)
+InfYield.Name = "InfYield"
+InfYield.Parent = Scripts
+InfYield.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+InfYield.BorderColor3 = Color3.fromRGB(167, 169, 169)
+InfYield.BorderSizePixel = 3
+InfYield.Position = UDim2.new(0.543859661, 0, 0.298809528, 0)
+InfYield.Size = UDim2.new(0, 200, 0, 50)
+InfYield.Font = Enum.Font.GothamSemibold
+InfYield.Text = "Infinite Yield"
+InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYield.TextSize = 25.000
+InfYield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Fling.Name = "Fling"
+Fling.Parent = Scripts
+Fling.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+Fling.BorderColor3 = Color3.fromRGB(167, 169, 169)
+Fling.BorderSizePixel = 3
+Fling.Position = UDim2.new(0.543859661, 0, 0.195238099, 0)
+Fling.Size = UDim2.new(0, 200, 0, 50)
+Fling.Font = Enum.Font.GothamSemibold
+Fling.Text = "Fling"
+Fling.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fling.TextSize = 25.000
+Fling.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/FlingScript", true))()
+end)
+BTools.Name = "BTools"
+BTools.Parent = Scripts
+BTools.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+BTools.BorderColor3 = Color3.fromRGB(167, 169, 169)
+BTools.BorderSizePixel = 3
+BTools.Position = UDim2.new(0.543859661, 0, 0.510714293, 0)
+BTools.Size = UDim2.new(0, 200, 0, 50)
+BTools.Font = Enum.Font.GothamSemibold
+BTools.Text = "Btools"
+BTools.TextColor3 = Color3.fromRGB(255, 255, 255)
+BTools.TextSize = 25.000
+BTools.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/Btools", true))()
+end)
+Games.Name = "Games"
+Games.Parent = FrontGUI
+Games.Active = true
+Games.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Games.BorderColor3 = Color3.fromRGB(181, 64, 255)
+Games.BorderSizePixel = 3
+Games.Selectable = false
+Games.Size = UDim2.new(0, 627, 0, 420)
+Games.Visible = false
+Games.CanvasPosition = Vector2.new(0, 150)
+
+Dash_7.Name = "Dash"
+Dash_7.Parent = Games
+Dash_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dash_7.BackgroundTransparency = 1.000
+Dash_7.Position = UDim2.new(0, 0, 0.0166666675, 0)
+Dash_7.Size = UDim2.new(0, 97, 0, 19)
+Dash_7.Font = Enum.Font.GothamSemibold
+Dash_7.Text = "Dash"
+Dash_7.TextColor3 = Color3.fromRGB(253, 128, 8)
+Dash_7.TextSize = 35.000
+
+Hub_7.Name = "Hub"
+Hub_7.Parent = Games
+Hub_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hub_7.BackgroundTransparency = 1.000
+Hub_7.Position = UDim2.new(0.125996813, 0, 0.0166666675, 0)
+Hub_7.Size = UDim2.new(0, 88, 0, 19)
+Hub_7.Font = Enum.Font.GothamSemibold
+Hub_7.Text = "Hub"
+Hub_7.TextColor3 = Color3.fromRGB(128, 0, 255)
+Hub_7.TextSize = 35.000
+
+Version_7.Name = "Version"
+Version_7.Parent = Games
+Version_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_7.BackgroundTransparency = 1.000
+Version_7.Position = UDim2.new(0.80063796, 0, 0.0166666675, 0)
+Version_7.Size = UDim2.new(0, 98, 0, 19)
+Version_7.Font = Enum.Font.GothamSemibold
+Version_7.Text = "Version 2.1"
+Version_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_7.TextSize = 20.000
+
+Line_8.Name = "Line"
+Line_8.Parent = Games
+Line_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_8.Position = UDim2.new(0.0127591705, 0, 0.052380953, 0)
+Line_8.Size = UDim2.new(0, 592, 0, 1)
+
+GamesTitle_2.Name = "GamesTitle"
+GamesTitle_2.Parent = Games
+GamesTitle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle_2.BackgroundTransparency = 1.000
+GamesTitle_2.Position = UDim2.new(0.336523116, 0, 0.00595238106, 0)
+GamesTitle_2.Size = UDim2.new(0, 200, 0, 37)
+GamesTitle_2.Font = Enum.Font.GothamSemibold
+GamesTitle_2.Text = "Games"
+GamesTitle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle_2.TextSize = 35.000
+
+GiantSurvival.Name = "GiantSurvival"
+GiantSurvival.Parent = Games
+GiantSurvival.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+GiantSurvival.BorderColor3 = Color3.fromRGB(167, 169, 169)
+GiantSurvival.BorderSizePixel = 3
+GiantSurvival.Position = UDim2.new(0.0925039724, 0, 0.0916666687, 0)
+GiantSurvival.Size = UDim2.new(0, 200, 0, 50)
+GiantSurvival.Font = Enum.Font.GothamSemibold
+GiantSurvival.Text = "Giant Survival"
+GiantSurvival.TextColor3 = Color3.fromRGB(255, 255, 255)
+GiantSurvival.TextSize = 25.000
+GiantSurvival.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/Giant_Survival", true))()
+end)
+NaturalDisaster.Name = "NaturalDisaster"
+NaturalDisaster.Parent = Games
+NaturalDisaster.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+NaturalDisaster.BorderColor3 = Color3.fromRGB(167, 169, 169)
+NaturalDisaster.BorderSizePixel = 3
+NaturalDisaster.Position = UDim2.new(0.543859601, 0, 0.0916666687, 0)
+NaturalDisaster.Size = UDim2.new(0, 200, 0, 50)
+NaturalDisaster.Font = Enum.Font.GothamSemibold
+NaturalDisaster.Text = "Natural Disaster"
+NaturalDisaster.TextColor3 = Color3.fromRGB(255, 255, 255)
+NaturalDisaster.TextSize = 25.000
+NaturalDisaster.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/naturaldisaster", true))()
+end)
+BigPaintball.Name = "BigPaintball"
+BigPaintball.Parent = Games
+BigPaintball.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+BigPaintball.BorderColor3 = Color3.fromRGB(167, 169, 169)
+BigPaintball.BorderSizePixel = 3
+BigPaintball.Position = UDim2.new(0.0925039724, 0, 0.195238099, 0)
+BigPaintball.Size = UDim2.new(0, 200, 0, 50)
+BigPaintball.Font = Enum.Font.GothamSemibold
+BigPaintball.Text = "Big Paintball"
+BigPaintball.TextColor3 = Color3.fromRGB(255, 255, 255)
+BigPaintball.TextSize = 25.000
+BigPaintball.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('http://alpha1004.tech/scripts/AlphaX.lua'))()
+end)
+RagdollEngine.Name = "RagdollEngine"
+RagdollEngine.Parent = Games
+RagdollEngine.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+RagdollEngine.BorderColor3 = Color3.fromRGB(167, 169, 169)
+RagdollEngine.BorderSizePixel = 3
+RagdollEngine.Position = UDim2.new(0.543859661, 0, 0.195238099, 0)
+RagdollEngine.Size = UDim2.new(0, 200, 0, 50)
+RagdollEngine.Font = Enum.Font.GothamSemibold
+RagdollEngine.Text = "Ragdoll Engine"
+RagdollEngine.TextColor3 = Color3.fromRGB(255, 255, 255)
+RagdollEngine.TextSize = 25.000
+RagdollEngine.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/RagdollEngine", true))()
+end)
+BuildABoat.Name = "BuildABoat"
+BuildABoat.Parent = Games
+BuildABoat.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+BuildABoat.BorderColor3 = Color3.fromRGB(167, 169, 169)
+BuildABoat.BorderSizePixel = 3
+BuildABoat.Position = UDim2.new(0.0925039724, 0, 0.298809528, 0)
+BuildABoat.Size = UDim2.new(0, 200, 0, 50)
+BuildABoat.Font = Enum.Font.GothamSemibold
+BuildABoat.Text = "Build A Boat"
+BuildABoat.TextColor3 = Color3.fromRGB(255, 255, 255)
+BuildABoat.TextSize = 25.000
+BuildABoat.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/BuildABoat", true))()
+end)
+Piggy.Name = "Piggy"
+Piggy.Parent = Games
+Piggy.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+Piggy.BorderColor3 = Color3.fromRGB(167, 169, 169)
+Piggy.BorderSizePixel = 3
+Piggy.Position = UDim2.new(0.543859661, 0, 0.298809528, 0)
+Piggy.Size = UDim2.new(0, 200, 0, 50)
+Piggy.Font = Enum.Font.GothamSemibold
+Piggy.Text = "Piggy"
+Piggy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Piggy.TextSize = 25.000
+Piggy.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/piggy", true))()
+end)
+LuckyBlock.Name = "LuckyBlock"
+LuckyBlock.Parent = Games
+LuckyBlock.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+LuckyBlock.BorderColor3 = Color3.fromRGB(167, 169, 169)
+LuckyBlock.BorderSizePixel = 3
+LuckyBlock.Position = UDim2.new(0.0925039724, 0, 0.407142878, 0)
+LuckyBlock.Size = UDim2.new(0, 200, 0, 50)
+LuckyBlock.Font = Enum.Font.GothamSemibold
+LuckyBlock.Text = "Lucky Block"
+LuckyBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+LuckyBlock.TextSize = 25.000
+LuckyBlock.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/luckyblock", true))()
+end)
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Games
+Arsenal.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+Arsenal.BorderColor3 = Color3.fromRGB(167, 169, 169)
+Arsenal.BorderSizePixel = 3
+Arsenal.Position = UDim2.new(0.543859661, 0, 0.407142878, 0)
+Arsenal.Size = UDim2.new(0, 200, 0, 50)
+Arsenal.Font = Enum.Font.GothamSemibold
+Arsenal.Text = "Arsenal (SkidHub)"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextSize = 23.000
+Arsenal.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/zzv2ahRT", true))()
+end)
+CounterBlox.Name = "CounterBlox"
+CounterBlox.Parent = Games
+CounterBlox.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+CounterBlox.BorderColor3 = Color3.fromRGB(167, 169, 169)
+CounterBlox.BorderSizePixel = 3
+CounterBlox.Position = UDim2.new(0.0925039724, 0, 0.510714293, 0)
+CounterBlox.Size = UDim2.new(0, 200, 0, 50)
+CounterBlox.Font = Enum.Font.GothamSemibold
+CounterBlox.Text = "CounterBlox(Soon)"
+CounterBlox.TextScaled = true
+CounterBlox.TextColor3 = Color3.fromRGB(255, 255, 255)
+CounterBlox.TextSize = 25.000
+
+TowerOfHell.Name = "TowerOfHell"
+TowerOfHell.Parent = Games
+TowerOfHell.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+TowerOfHell.BorderColor3 = Color3.fromRGB(167, 169, 169)
+TowerOfHell.BorderSizePixel = 3
+TowerOfHell.Position = UDim2.new(0.543859661, 0, 0.510714293, 0)
+TowerOfHell.Size = UDim2.new(0, 200, 0, 50)
+TowerOfHell.Font = Enum.Font.GothamSemibold
+TowerOfHell.Text = "Tower Of Hell"
+TowerOfHell.TextColor3 = Color3.fromRGB(255, 255, 255)
+TowerOfHell.TextSize = 25.000
+TowerOfHell.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/InvalidSoul/oscripts/master/TowerOfHell", true))()
+end)
+PushSim.Name = "PushSim"
+PushSim.Parent = Games
+PushSim.BackgroundColor3 = Color3.fromRGB(89, 91, 92)
+PushSim.BorderColor3 = Color3.fromRGB(167, 169, 169)
+PushSim.BorderSizePixel = 3
+PushSim.Position = UDim2.new(0.311004788, 0, 0.613095284, 0)
+PushSim.Size = UDim2.new(0, 200, 0, 50)
+PushSim.Font = Enum.Font.GothamSemibold
+PushSim.Text = "Pushing Simulator"
+PushSim.TextColor3 = Color3.fromRGB(255, 255, 255)
+PushSim.TextSize = 23.000
+PushSim.TextWrapped = true
+PushSim.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/push_simulator/main.lua", true))()
+end)
+OpenAndClose.Name = "OpenAndClose"
+OpenAndClose.Parent = DashHub20
+OpenAndClose.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+OpenAndClose.BackgroundTransparency = 0.500
+OpenAndClose.BorderSizePixel = 0
+OpenAndClose.Position = UDim2.new(0.922273755, 0, 0.32911393, 0)
+OpenAndClose.Size = UDim2.new(0, 128, 0, 46)
+OpenAndClose.Visible = false
+
+OpenHub.Name = "OpenHub"
+OpenHub.Parent = OpenAndClose
+OpenHub.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+OpenHub.BorderSizePixel = 0
+OpenHub.Position = UDim2.new(0.0546875, 0, 0.130434781, 0)
+OpenHub.Size = UDim2.new(0, 115, 0, 34)
+OpenHub.Font = Enum.Font.GothamSemibold
+OpenHub.Text = "Open"
+OpenHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenHub.TextSize = 20.000
+
+local function YOIV_fake_script()
+	local script = Instance.new('LocalScript', ScriptsButton)
+	
+	local Button = script.Parent
+	
+	local Changelog = script.Parent.Parent.Parent.Changelog
+	
+	local Settings = script.Parent.Parent.Parent.Settings
+	
+	local Scripts = script.Parent.Parent.Parent.Scripts
+	
+	local Games = script.Parent.Parent.Parent.Games
+	
+	local Discord = script.Parent.Parent.Parent.Discord
+	
+	local Credits = script.Parent.Parent.Parent.Credits
+	
+	Button.MouseButton1Click:Connect(function()
+		Changelog.Visible = false
+		Settings.Visible = false
+		Scripts.Visible = true
+		Games.Visible = false
+		Discord.Visible = false
+		Credits.Visible = false
+	end)
+	
+end
+coroutine.wrap(YOIV_fake_script)()
+local function SUMVT_fake_script() 
+	local script = Instance.new('LocalScript', GamesButton)
+	
+	local Button = script.Parent
+	
+	local Changelog = script.Parent.Parent.Parent.Changelog
+	
+	local Settings = script.Parent.Parent.Parent.Settings
+	
+	local Scripts = script.Parent.Parent.Parent.Scripts
+	
+	local Games = script.Parent.Parent.Parent.Games
+	
+	local Discord = script.Parent.Parent.Parent.Discord
+	
+	local Credits = script.Parent.Parent.Parent.Credits
+	
+	Button.MouseButton1Click:Connect(function()
+		Changelog.Visible = false
+		Settings.Visible = false
+		Scripts.Visible = false
+		Games.Visible = true
+		Discord.Visible = false
+		Credits.Visible = false
+	end)
+	
+end
+coroutine.wrap(SUMVT_fake_script)()
+local function YXTEEJD_fake_script() 
+	local script = Instance.new('LocalScript', ChangelogButton)
+	
+	local Button = script.Parent
+	
+	local Changelog = script.Parent.Parent.Parent.Changelog
+	
+	local Settings = script.Parent.Parent.Parent.Settings
+	
+	local Scripts = script.Parent.Parent.Parent.Scripts
+	
+	local Games = script.Parent.Parent.Parent.Games
+	
+	local Discord = script.Parent.Parent.Parent.Discord
+	
+	local Credit = script.Parent.Parent.Parent.Credits
+	
+	Button.MouseButton1Click:Connect(function()
+		Changelog.Visible = true
+		Settings.Visible = false
+		Scripts.Visible = false
+		Games.Visible = false
+		Discord.Visible = false
+		Credit.Visible = false
+	end)
+end
+coroutine.wrap(YXTEEJD_fake_script)()
+local function FUIQ_fake_script() 
+	local script = Instance.new('LocalScript', CreditsButton)
+	
+	local Button = script.Parent
+	
+	local Changelog = script.Parent.Parent.Parent.Changelog
+	
+	local Settings = script.Parent.Parent.Parent.Settings
+	
+	local Scripts = script.Parent.Parent.Parent.Scripts
+	
+	local Games = script.Parent.Parent.Parent.Games
+	
+	local Discord = script.Parent.Parent.Parent.Discord
+	
+	local Credits = script.Parent.Parent.Parent.Credits
+	
+	Button.MouseButton1Click:Connect(function()
+		Changelog.Visible = false
+		Settings.Visible = false
+		Scripts.Visible = false
+		Games.Visible = false
+		Discord.Visible = false
+		Credits.Visible = true
+	end)
+end
+coroutine.wrap(FUIQ_fake_script)()
+local function JDOPE_fake_script() 
+	local script = Instance.new('LocalScript', SettingsButton)
+	
+	local Button = script.Parent
+	
+	local Changelog = script.Parent.Parent.Parent.Changelog
+	
+	local Settings = script.Parent.Parent.Parent.Settings
+	
+	local Scripts = script.Parent.Parent.Parent.Scripts
+	
+	local Games = script.Parent.Parent.Parent.Games
+	
+	local Discord = script.Parent.Parent.Parent.Discord
+	
+	local Credits = script.Parent.Parent.Parent.Credits
+	
+	Button.MouseButton1Click:Connect(function()
+		Changelog.Visible = false
+		Settings.Visible = true
+		Scripts.Visible = false
+		Games.Visible = false
+		Discord.Visible = false
+		Credits.Visible = false
+	end)
+	
+end
+coroutine.wrap(JDOPE_fake_script)()
+local function PDPE_fake_script() 
+	local script = Instance.new('LocalScript', DiscordButton)
+	
+	local Button = script.Parent
+	
+	local Changelog = script.Parent.Parent.Parent.Changelog
+	
+	local Settings = script.Parent.Parent.Parent.Settings
+	
+	local Scripts = script.Parent.Parent.Parent.Scripts
+	
+	local Games = script.Parent.Parent.Parent.Games
+	
+	local Discord = script.Parent.Parent.Parent.Discord
+	
+	local Credits = script.Parent.Parent.Parent.Credits
+	
+	Button.MouseButton1Click:Connect(function()
+		Changelog.Visible = false
+		Settings.Visible = false
+		Scripts.Visible = false
+		Games.Visible = false
+		Discord.Visible = true
+		Credits.Visible = false
+	end)
+end
+coroutine.wrap(PDPE_fake_script)()
+local function CFHKFA_fake_script() 
+	local script = Instance.new('LocalScript', HideGUI)
+	
+	local Button = script.Parent
+	
+	local FrontGUI = script.Parent.Parent.Parent
+	
+	local Open = script.Parent.Parent.Parent.Parent.OpenAndClose
+	
+	Button.MouseButton1Click:Connect(function()
+		FrontGUI.Visible = false
+		Open.Visible = true
+	end)
+end
+coroutine.wrap(CFHKFA_fake_script)()
+local function YVCWK_fake_script() 
+	local script = Instance.new('LocalScript', OpenHub)
+	
+	local Button = script.Parent
+	
+	local FrontGUI = script.Parent.Parent.Parent.FrontGUI
+	
+	local ButtonFrame = script.Parent.Parent
+	
+	Button.MouseButton1Click:Connect(function()
+		FrontGUI.Visible = true	
+		ButtonFrame.Visible = false
+	end)
+end
+coroutine.wrap(YVCWK_fake_script)()
